@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Product List</h3>
+        <table id="product-table">
+            <thead>
+                <tr><th>Product Name</th><th>Price</th><th></th></tr>
+            </thead>
+            <tbody id="product-list">
+                <tr>
+                    <td>Shirt</td><td>2500tk</td><td><button class="btn">Add To Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Pant</td><td>2200tk</td><td><button class="btn">Add To Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Phone</td><td>30000tk</td><td><button class="btn">Add To Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Shoes</td><td>3200tk</td><td><button class="btn">Add To Cart</button></td>
+                </tr>
+                <tr>
+                    <td>Saree</td><td>5000tk</td><td><button class="btn">Add To Cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Your Shopping Cart</h3>
+        <table id="cart-table">
+            <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody id="cart">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
